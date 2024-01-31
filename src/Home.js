@@ -1,12 +1,13 @@
 import imgModern from './home/modernhouse.jpg';
 import ImageAge from './home/age.jpg';
 import imageHappy from './home/happy.jpg';
-import imageContact from './contact.jpg';
+import imgHome from './home/homepage.jpg';
+import imgHomeTwo from './home/homepagetwo.jpg';
 import { NavLink } from 'react-router-dom';
-import { FaSquareInstagram } from "react-icons/fa6";
 import { SlSocialTwitter } from "react-icons/sl";
 import { FaPinterest } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 
 
 const Home =() => {
@@ -18,12 +19,15 @@ const Home =() => {
             </div>
             <img className='age' src={imageHappy} alt=''/>
             <img className='happy' src={ImageAge} alt=''/>
+            
+            <img className='homepage' src={imgHome} alt=''/>
+            <img className='homepage' src={imgHomeTwo} alt=''/>
+
             <div className='container'>
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
-            <img className='contact' src={imageContact} alt=''/>
             <div className='footer'>
-                <p className='copy'>© Copyright 2023 by <span>Envarch</span></p>
+                <p className='copy'>© Copyright 2023 by <span className='mac'>Mackenzie Interiors</span></p>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />
                 </NavLink>

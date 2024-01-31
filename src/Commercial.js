@@ -6,7 +6,6 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { SlSocialTwitter } from "react-icons/sl";
 import { FaPinterest } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import imageContact from './contact.jpg';
 import imgBar from './bar.jpg';
 import commentTwo from './about/commentTwo.jpg';
 import { useState } from "react";
@@ -43,7 +42,7 @@ const Commercial = () => {
             <img className='hall' src={imgBar} alt=''/>
 
             <div className='container'>
-            <h2 className='our'>Commercial Projects</h2>
+            <h2 className='our'>A Glance At Some Of Our Commercial Projects</h2>
             </div>
 
             <div className='container'>
@@ -61,9 +60,8 @@ const Commercial = () => {
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
 
-            <img className='contact' src={imageContact} alt=''/>
             <div className='footer'>
-                <p className='copy'>© Copyright 2023 by <span>Envarch</span></p>
+            <p className='copy'>© Copyright 2023 by <span className='mac'>Mackenzie Interiors</span></p>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />
                 </NavLink>

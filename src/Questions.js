@@ -7,7 +7,6 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { SlSocialTwitter } from "react-icons/sl";
 import { FaPinterest } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import imageContact from './contact.jpg';
 
 
 const Questions = () => {
@@ -28,9 +27,8 @@ const Questions = () => {
         <div className='container'>
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
-            <img className='contact' src={imageContact} alt=''/>
             <div className='footer'>
-                <p className='copy'>© Copyright 2023 by <span>Envarch</span></p>
+            <p className='copy'>© Copyright 2023 by <span className='mac'>Mackenzie Interiors</span></p>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />
                 </NavLink>
