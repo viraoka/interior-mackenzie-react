@@ -85,9 +85,7 @@ const ContactUs =() => {
             <p>Mackenzie Interiors  |  Designing Interiors Coast to Coast  |  734 W. Polk St. Phoenix, AZ 85007  | 602-529-2191  |  mackenzieinteriors@gmail.com</p>
             </div>
             <div className='footer'>
-            <div>
-            <p className='copy'>© Copyright 2023 by <br></br> <span className='mac'>Mackenzie Interiors</span></p>
-            </div>
+            <p className='copy'>© Copyright 2023 by <br></br> Mackenzie Interiors</p>
                 <div className='icons'>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />

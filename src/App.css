@@ -66,6 +66,7 @@ letter-spacing: 4px;
 
 .copy {
   margin-right: auto;
+  margin-left: 40px;
   color: white;
 }
 
@@ -488,7 +489,7 @@ width: 5px;
     margin-left: 100px;
   }
   .mac {
-    font-size: 20px;
+    font-size:30px;
   }
   .inst {
   color: white;
@@ -738,8 +739,7 @@ width: 5px;
     }
     nav {
       display: flex;
-      justify-content: center;
-      padding: 0px;
+      
       background-color: black;
       width: 100%;
       position: fixed;

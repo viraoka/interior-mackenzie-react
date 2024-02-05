@@ -27,9 +27,9 @@ const Home =() => {
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
             <div className='footer'>
-            <div>
-            <p className='copy'>© Copyright 2023 by <br></br> <span className='mac'>Mackenzie Interiors</span></p>
-            </div>
+            
+            <p className='copy'>© Copyright 2023 by <br></br> Mackenzie Interiors</p>
+            
                 <div className='icons'>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />
