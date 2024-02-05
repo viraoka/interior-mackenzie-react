@@ -657,6 +657,8 @@ width: 5px;
   }
   .award {
     font-size: 25px;
+    margin: 20px;
+    margin-top: 40px;
   }
   .teamcont {
     margin-top: -55px;
@@ -703,6 +705,7 @@ width: 5px;
   }
   .our {
     font-size: 25px;
+    margin: 30px;
   }
   .project {
     width: 320px;
