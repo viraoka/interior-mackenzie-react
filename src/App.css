@@ -484,12 +484,12 @@ width: 5px;
 @media all and (max-width: 900px) {
   .icons {
     padding: 5px 3px;
-    margin-left: 107px;
+    margin-left: 90px;
     margin-bottom: 30px;
   }
   .copy {
     font-size: 17px;
-    margin-left: 120px;
+    margin-left: 105px;
     margin-bottom: 40px;
     margin-top: 30px;
   }
@@ -697,7 +697,7 @@ width: 5px;
   }
   .space {
     text-align: center;
-    margin: 50px;
+    margin: 30px;
     font-size: 30px;
     letter-spacing: 1px;
   }
