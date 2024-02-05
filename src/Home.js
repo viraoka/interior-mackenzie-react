@@ -27,7 +27,10 @@ const Home =() => {
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
             <div className='footer'>
-                <p className='copy'>© Copyright 2023 by <span className='mac'>Mackenzie Interiors</span></p>
+            <div>
+            <p className='copy'>© Copyright 2023 by <br></br> <span className='mac'>Mackenzie Interiors</span></p>
+            </div>
+                <div className='icons'>
                 <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
                 <FaSquareInstagram />
                 </NavLink>
@@ -40,6 +43,7 @@ const Home =() => {
                 <NavLink className="inst" to="https://www.facebook.com/yuandesignpj" target='_blank'>
                 <FaFacebook />                    
                 </NavLink>
+                </div>
             </div>
         </div>
     )
