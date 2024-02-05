@@ -482,11 +482,11 @@ width: 5px;
 @media all and (max-width: 900px) {
   .icons {
     padding: 5px 3px;
-    text-align: center;
+    margin-left: 107px;
   }
   .copy {
     font-size: 17px;
-    margin-left: 100px;
+    margin-left: 120px;
   }
   .mac {
     font-size:30px;
