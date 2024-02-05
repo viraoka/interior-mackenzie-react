@@ -18,7 +18,7 @@ import Questions from './Questions';
 function App() {
   return <Router>
     <nav>
-      <h2 className='mackenzie'>Mackenzie Interiors</h2>
+      <h2 className='mackenzie'>Mackenzie  Interiors</h2>
       <Link to="/" className='link'>Home</Link>
       <Link to="/about" className='link'>About</Link>
       <Link to="/residentialprojects" className='link'>Residential</Link>
