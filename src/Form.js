@@ -25,6 +25,10 @@ const Form = () => {
         console.log(form);
     }
 
+    const alertAnswer = () => {
+        alert('Thank you for your message!');
+    }
+
     return (
         <div  className='call-form'>
         <div> 
@@ -77,7 +81,7 @@ const Form = () => {
             onChange={handleInputChange}
             />
             </div>
-            <button type='submit' className='btn-form'>Submit</button>
+            <button onClick={alertAnswer} type='submit' className='btn-form'>Submit</button>
             </form>
         </div>
         </div>
