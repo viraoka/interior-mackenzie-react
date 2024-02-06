@@ -1,8 +1,30 @@
 import { NavLink } from 'react-router-dom';
 import { IoCallOutline } from "react-icons/io5";
+import { useState } from 'react';
 
 
 const Form = () => {
+
+    const [form, setForm] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        tell: ""
+    })
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setForm((prevProps) => ({
+            ...prevProps,
+            [name]: value
+        }))
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(form);
+    }
+
     return (
         <div  className='call-form'>
         <div> 
@@ -18,16 +40,44 @@ const Form = () => {
             <p className='if'>*If you are inquiring about your product or service, please contact
             <br></br> us via email at  
             <NavLink className="email" to="mailto: mackenzieinteriors@gmail.com" >mackenzieinteriors@gmail.com</NavLink></p>
-            <form className='theform'>
+            
+            <form onSubmit={handleSubmit} className='theform'>
             <label htmlFor='name' className='label'>Name</label>
-            <div className='pad'><input className='field' type='text' name='name'/></div>
+            <div className='pad'>
+            <input className='field' 
+            type='text' 
+            name='name'
+            value={form.name}
+            onChange={handleInputChange}
+            />
+            </div>
             <label htmlFor='email' className='label'>Email</label>
-            <div className='pad'> <input className='field' type='text' name='email'/></div>
+            <div className='pad'> 
+            <input className='field' 
+            type='text' 
+            name='email'
+            value={form.email}
+            onChange={handleInputChange}
+            />
+            </div>
             <label htmlFor='phone' className='label'>Phone</label>
-            <div className='pad'> <input className='field' type='tel' name='phone'/></div>
+            <div className='pad'> 
+            <input className='field' 
+            type='tel' 
+            name='phone'
+            value={form.phone}
+            onChange={handleInputChange}
+            />
+            </div>
             <label htmlFor='tell' className='label'>Tell us a little about your project!</label>
-            <div className='pad'><textarea rows='4' cols='53' className='field-textarea' name='tell'/></div>
-            <button className='btn-form'>Submit</button>
+            <div className='pad'>
+            <textarea rows='4' cols='53' className='field-textarea' 
+            name='tell'
+            value={form.tell}
+            onChange={handleInputChange}
+            />
+            </div>
+            <button type='submit' className='btn-form'>Submit</button>
             </form>
         </div>
         </div>
