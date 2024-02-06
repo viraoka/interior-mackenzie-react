@@ -3,12 +3,8 @@ import ImageAge from './home/age.jpg';
 import imageHappy from './home/happy.jpg';
 import imgHome from './home/homepage.jpg';
 import imgHomeTwo from './home/homepagetwo.jpg';
-import { NavLink } from 'react-router-dom';
-import { SlSocialTwitter } from "react-icons/sl";
-import { FaPinterest } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-
+import Footer from './Footer';
+import Form from './Form';
 
 const Home =() => {
     return (
@@ -26,25 +22,8 @@ const Home =() => {
             <div className='container'>
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
-            <div className='footer'>
-            
-            <p className='copy'>© Copyright 2023 by <br></br> Mackenzie Interiors</p>
-            
-                <div className='icons'>
-                <NavLink className="inst" to="https://www.instagram.com/interiordesignmag/" target='_blank'>
-                <FaSquareInstagram />
-                </NavLink>
-                <NavLink className="inst" to="https://twitter.com/InteriorDesign" target='_blank'>
-                <SlSocialTwitter />    
-                </NavLink>
-                <NavLink className="inst" to="https://www.pinterest.com/pin/55169164178682688/" target='_blank'>
-                <FaPinterest />                    
-                </NavLink>
-                <NavLink className="inst" to="https://www.facebook.com/yuandesignpj" target='_blank'>
-                <FaFacebook />                    
-                </NavLink>
-                </div>
-            </div>
+            <Form/>
+            <Footer/>
         </div>
     )
 }

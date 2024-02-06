@@ -445,15 +445,14 @@ h3 {
   border: 1px solid #B4B4B8;
 }
 .field-textarea {
-  width: 74%;
-  padding: 40px;
+  padding: 10px;
   border: 1px solid #B4B4B8;
 }
 
 .btn-form {
   margin-top: 15px;
   border: 1px solid black;
-  padding: 15px 194px;
+  padding: 15px 197px;
   font-size: 21px ;
   margin-left: 15px;
   background-color: black;
@@ -507,7 +506,7 @@ width: 5px;
     margin-left: 140px;
   }
   .btn-form {
-    padding: 15px 119px;
+    padding: 15px 112px;
     margin-left: 10px;
   }
   .form-title {
@@ -777,5 +776,8 @@ width: 5px;
     }
     .hall {
       margin-top: 90px;
+    }
+    .field-textarea {
+      width: 85%;
     }
   }
