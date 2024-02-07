@@ -6,6 +6,7 @@ import imgHomeTwo from './home/homepagetwo.jpg';
 import Footer from './Footer';
 import Form from './Form';
 
+
 const Home =() => {
     return (
         <div>
@@ -15,10 +16,8 @@ const Home =() => {
             </div>
             <img className='age' src={imageHappy} alt=''/>
             <img className='happy' src={ImageAge} alt=''/>
-            
             <img className='homepage' src={imgHome} alt=''/>
             <img className='homepage' src={imgHomeTwo} alt=''/>
-
             <div className='container'>
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>

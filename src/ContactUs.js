@@ -25,7 +25,6 @@ const ContactUs =() => {
             <h3 className='space'>Are You Ready To Love Your Space?</h3>
             </div>
             <Form/>
-            
             <Footer/>
         </div>
     )
