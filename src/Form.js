@@ -3,14 +3,16 @@ import { IoCallOutline } from "react-icons/io5";
 import { useState } from 'react';
 
 
-const INITIAL_STATE = {
-    name: "",
-    email: "",
-    phone: "",
-    tell: ""
-}
+
 
 const Form = () => {
+
+    const INITIAL_STATE = {
+        name: "",
+        email: "",
+        phone: "",
+        tell: ""
+    }
 
     const [form, setForm] = useState(INITIAL_STATE);
 
